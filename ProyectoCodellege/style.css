@@ -10,7 +10,9 @@ body{
 nav{
     background-color: white;
 }
-
+#icono{
+    position:absolute;
+}
 
 #myCarousel{
     margin-top: -20px;
