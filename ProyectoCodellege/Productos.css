@@ -1,0 +1,243 @@
+/*Fondodelsitioweb*/
+    html,body{margin:0;padding:0;height:100&#37;;}
+    body{overflow:hidden;}
+    #fondo,#sitio{width:100%;height:100%;position:absolute;top:0;left:0;z-index:-1;}
+    #sitio{z-index:1;overflow:auto;}
+
+/*Modal*/
+body {
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.modal {
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.8);
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	display: flex;
+	
+	animation: modal 2s 3s forwards;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.contenido {
+	margin: auto;
+	width: 40%;
+	height: 40%;
+	background: white;
+	border-radius: 10px;
+}
+
+#cerrar {
+	display: none;
+}
+
+#cerrar + label {
+	position: fixed;
+	color: #fff;
+	font-size: 25px;
+	z-index: 50;
+	background: darkred;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	right: 150px;
+	top: 150px;
+	cursor: pointer;
+	
+	animation: modal 2s 3s forwards;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal {
+	display: none;
+}
+
+@keyframes modal {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+
+/*Modal*/
+
+.fondo{
+	 width: 100%; height: 100; 
+}
+.imagen-modal{
+	height: 60%;
+	width: 60%;
+}
+/*Titulo*/
+h1 {
+	font-family: 'Dosis', sans-serif;
+}
+h2{
+	color: black;
+	font-family: 'Dosis', sans-serif;
+}
+/*Posiciones*/
+.poción-pastel-fila1{
+	     position:absolute;
+	      top:80px;
+	      left:150px;
+				}
+.poción-pastel-guayaba{
+	     position:absolute;
+	      top:400px;
+	      left:240px;
+				}
+.poción-pastel-preparando{
+	     position:absolute;
+	      top:770px;
+	      left:450px;
+				}
+.poción-pastel-XVaños{
+	     position:absolute;
+	      top:600px;
+	      left:550px;
+				}
+.poción-pastel-miel{
+	     position:absolute;
+	      top:700px;
+	      left:150px;
+				}
+.poción-pastel-zanahoria{
+	     position:absolute;
+	      top:900px;
+	      left:50px;
+				}
+.poción-pastel-colores{
+	     position:absolute;
+	      top:1300px;
+	      left:900px;
+				}
+.poción-pastel-delisious{
+	     position:absolute;
+	      top:1500px;
+	      left:460px;
+				}
+.poción-pastel-haciendo{
+	     position:absolute;
+	      top:1500px;
+	      left:90px;
+				}
+.poción-pastel-birday{
+	     position:absolute;
+	      top:1750px;
+	      left:70px;
+				}
+.poción-pastel-pasteldecanela{
+	     position:absolute;
+	      top:2000px;
+	      left:50px;
+				}
+.poción-pastel-volcan{
+	     position:absolute;
+	      top:2100px;
+	      left:350px;
+				}
+.poción-pastel-enhorno{
+	     position:absolute;
+	      top:2600px;
+	      left:500px;
+				}
+.poción-pastel-blancoyred{
+	     position:absolute;
+	      top:3100px;
+	      left:60px;
+				}
+.poción-pastel-elegante{
+	     position:absolute;
+	      top:3100px;
+	      left:460px;
+				}
+.poción-pastel-corazon{
+	     position:absolute;
+	      top:3800px;
+	      left:370px;
+				}
+/*Efectocircular*/
+.img-circular {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+
+/*Movimiento*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: arial;
+}
+
+div#imagen{
+	width: 544px;
+	height: 451px;
+	margin: 30px;
+	background-image: url("img/pastelchocolate.PNG");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info{
+	position: absolute;
+	overflow: hidden;
+	width: 544px;
+	height: 451px; 
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen:hover div#info{
+	opacity: 1;
+}
+
+p#headline{
+	position: absolute;
+	margin-top: 60px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen:hover p#headline{
+	margin-left: 120px;
+}
+
+p#info2{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 520px;
+}
+
+div#imagen:hover p#info2{
+	margin-top: 120px;
+}
