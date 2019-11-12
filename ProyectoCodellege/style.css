@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+    font-family: Nickainley;
+    src: url("Nickainley-Normal.woff2");
+}
 body{
     background-color: rgb(192,148,171);
 }
@@ -12,6 +15,10 @@ body{
     top: 0;
     position: fixed;
     z-index: 50;
+<<<<<<< HEAD
+=======
+    font-size: 15pt;
+>>>>>>> 2d35f691b284fc920ced56dc528d5df565bfa151
 }
 #barra2{
     left: 0;
@@ -142,6 +149,7 @@ h1{
       margin: 10% 0;
       color: black;
       font-weight: bolder;
+      font-family: Nickainley;
   }
 .prod{
       padding: 3%;
@@ -149,6 +157,10 @@ h1{
 h2{
     font-weight: bolder;
     text-align: center;
+<<<<<<< HEAD
+=======
+    font-family: Nickainley;
+>>>>>>> 2d35f691b284fc920ced56dc528d5df565bfa151
 }
 
 #nosotros{
@@ -182,6 +194,7 @@ h3{
 -moz-box-shadow: -1px -12px 40px 7px rgba(0,0,0,0.61);
 box-shadow: -1px -12px 40px 7px rgba(0,0,0,0.61);
 }
+<<<<<<< HEAD
 
 	
 @media screen and (max-width: 750px) {
@@ -231,4 +244,74 @@ iframe{
     height: 225px;
 }
 }
+=======
+>>>>>>> 2d35f691b284fc920ced56dc528d5df565bfa151
 
+	
+@media screen and (max-width: 750px) {
+    #barra2{
+        display: flex;
+    }
+#barra{
+display:none;
+}
+
+.parallax{
+    min-height: 100px;
+}
+
+#myCarousel{
+    margin-top: auto;
+}
+
+#myCarousel img{
+    width: 100%;
+    height: 300px;
+}
+
+#nosotros{
+    padding: 0;
+}
+h1{
+    font-size: 25px;
+}
+h3{
+    font-size: 15px;
+    margin: 20px 0;
+}
+h2{
+    font-size: 25px;
+}
+#contact {
+    padding: 5px;
+}
+#contact h2{
+    font-size: 15px;
+}
+h4{
+    font-size: 10px;
+}
+iframe{
+    height: 225px;
+}
+#Vproductos{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+}
+
+.imagenanime:hover{
+    transition: all ease-in-out 1s;
+    position: absolute;
+    bottom: 60%;
+    left: 30%;
+}
+
+footer{
+    background-color: black;
+    margin-bottom: -100%;
+    color: white;
+    font-family: Nickainley;
+    font-size: 17pt;
+}
