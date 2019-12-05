@@ -7,6 +7,7 @@
     src: url("Nickainley-Normal.woff2");
 }
 body{
+    max-width: 100%;
     background: radial-gradient( circle farthest-side, #fa8072 10%, #cd5c5c 30%, #e25772 60%);
 }
 #barra{
@@ -15,7 +16,7 @@ body{
     top: 0;
     position: fixed;
     z-index: 50;
-    font-size: 15pt;
+    font-size: 2vw;
 }
 #barra2{
     left: 0;
@@ -27,6 +28,10 @@ body{
     padding: 20px;
     background-color: white;
     z-index: 50;
+}
+#menuimg{
+    position: relative;
+    margin: auto;
 }
 #menu_on{
 	display: inline-block;
@@ -60,7 +65,7 @@ body{
         top: 0;
         bottom: 0;
         left:-300px;
-        width: 300px;
+        width: 50%;
         z-index: 1;
         padding: 90px 30px 30px;
         background: #68C5DB;
@@ -109,6 +114,8 @@ nav{
 
 #logo{
     position: absolute;
+    left: 0;
+    top: 1%;
 }
 
 
@@ -161,6 +168,10 @@ h2{
     text-align: justify;
 }
 
+#produ{
+    width: 300px;
+}
+
 h3{
     margin: 50px 0;
 }
@@ -194,25 +205,31 @@ h3{
     #barra2{
         display: flex;
     }
-#barra{
-display:none;
+    #barra{
+        display:none;
+    }
+.parallax{
+    min-height: 150px;
+}
+FONT{
+    font-size: 15px;
 }
 
-.parallax{
-    min-height: 100px;
+.prod p{
+    font-size: 10px;
 }
 
 #myCarousel{
-    margin-top: auto;
+    margin-top: 50px;
 }
 
 #myCarousel img{
     width: 100%;
-    height: 300px;
+    max-height: 500px;
+    <!--object-fit: cover;-->
 }
-
-#nosotros{
-    padding: 0;
+#produ{
+    width: 200px;
 }
 h1{
     font-size: 25px;
@@ -230,6 +247,7 @@ h2{
 #contact h2{
     font-size: 15px;
 }
+
 h4{
     font-size: 10px;
 }
@@ -239,7 +257,14 @@ iframe{
 #Vproductos{
     width: 100px;
     margin-bottom: 20px;
-}}
+}
+.all
+{
+    top: 80%;
+    display: flex;
+}
+
+}
 
 .ImgR{
     border-radius:40px;
@@ -257,7 +282,7 @@ iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    max-width: 100%;
     transform: scale(1);
     -ms-transform: scale(1);
     -moz-transform: scale(1);
@@ -273,7 +298,7 @@ iframe{
     padding-top: 5px;
     display: block;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     transform: translate(0px);
     -webkit-transition: all 500ms ease-in-out;
     -moz-transition: all 500ms ease-in-out;
@@ -295,12 +320,17 @@ iframe{
   }
   
     
-    
-
 footer{
+    text-align: center;
     background-color: black;
     margin-bottom: -100%;
     color: white;
     font-family: Nickainley;
     font-size: 17pt;
 }
+
+
+
+
+
+

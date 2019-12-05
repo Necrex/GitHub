@@ -1,335 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Productos</title>
-	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+    </script>
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="carousel.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssproductos.css">
+    <link rel="stylesheet" href="modal.css">
+    <script type="text/javascript" src="cerrar.js"></script>
 
-
-
-
-	<link rel="stylesheet" type="text/css" href="Productos.css">
-	<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-	
+    <title>Sweet's Reposteria | Productos</title>
 </head>
-<body>
+<body class="fondo">
+        <nav class="navbar navbar-light" id="barra">
+                <a class="navbar-brand" href="#" id="logo"> 
+                  <img src="img/logosweetsreposteria.jpeg" width="30" height="30">
+                </a>
+                <a href="index.html#">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="index.html#"><img src="img/name.PNG" alt="" height="45"></a>
+                <a href="index.html#contactos">Contactos</a>
+                <a href="index.html#nosotros">Nosotros</a>
+              </nav>
 
-	<input type="checkbox" id="cerrar">
-		<label for="cerrar" id="btn-cerrar">X</label>
-		<div class="modal">
-			<input type="checkbox" id="cerrar">
-		<label for="cerrar" id="btn-cerrar">X</label>
-			<div class="contenido">
-				<h2>¡Bienvenido a la sección de productos, deleite su paladar!</h2>
-				<img  class="imagen-modal" src="img/paladar.jpg">
-			</div>
-		</div>
-	    <img src="img/Mostrador.jpg" alt="Cargando su pastel..." id="fondo" />
+        <div id="barra2">
+            <a id="menu_on">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a id="menuimg" href="index.html#"><img src="img/name.PNG" alt="" height="30"/></a>
+            <nav id="nav2">
+                <ul>
+                    <li><a class="menu" href="index.html#">Inicio</a></li>
+                    <li><a class="menu" href="#">Productos</a></li>
+                    <li><a class="menu" href="index.html#contactos">Contactos</a></li>
+                    <li><a class="menu" href="index.html#nosotros">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
 
-    <div id="sitio">
-    
-    	<div class="row">
-		<div class="col-md-6"></div>
-		<div class="col-md-3">
-		<div><h1>Productos</h1></div>
-	    </div>
-	    <div class="col-md-3"></div>
-	</div>
+	<section class="all" id="products">
+    <div class="content2">
 
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-4">
-		<div  class="poción-pastel-fila1">
-			
-<div id="imagen1">
-		<div id="info1">
-			<p id="headline1">Pan de helado</p>
-			<p id="info3">Pastel de guayaba con forma de helado </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-8"></div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-4"></div>
+        <figure class="snip0015">
+            <a href="#img1">
+            <img class="Timg marcoIMG" src="img/frutos.jpg"  alt="" width="800" height="530"/>
+            <figcaption>
+                <h2>Placer</h2>
+                <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+            </figcaption>
+            </a>
+        </figure>
 
 
+            <figure class="snip0015">
+                <a href="#img2">
+                <img class="Timg marcoIMG" src="img/yuumy.jfif" alt="" width="800" height="530"/>
+                <figcaption>
+                    <h2>Placer</h2>
+                    <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                </figcaption>
+                </a>
+            </figure>
 
-		<div class="col-md-4">
-		<div  class="poción-pastel-fila1">
-			
-<div id="imagen">
-		<div id="info">
-			<p id="headline">Placer</p>
-			<p id="info2">Pastel de chocolate y avellanas elaborado a base de 3 leches </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
+            <figure class="snip0015">
+                <a href="#img3">
+                    <img class="Timg marcoIMG" src="img/abee.jpg" alt="" width="800" height="530"/>
+                <figcaption>
+                    <h2>Placer</h2>
+                    <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                </figcaption>
+                </a>
+            </figure>
 
+            <figure class="snip0015">
+                <a href="#img4">
+                <img class="Timg marcoIMG" src="img/bomba.jfif" alt="" width="800" height="530"/>
+                <figcaption>
+                    <h2>Placer</h2>
+                    <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                </figcaption>
+                </a>
+            </figure> 
 
+            <figure class="snip0015">
+                <a href="#img5">
+                <img class="Timg marcoIMG" src="img/cheesecake.jfif" alt="" width="800" height="530"/>
+                <figcaption>
+                    <h2>Placer</h2>
+                    <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                </figcaption>
+                </a>
+            </figure> 
 
-	    
-	    <div class="col-md-4"></div>
-	</div>
+                <figure class="snip0015">
+                    <a href="#img6">
+                    <img class="Timg marcoIMG" src="img/seda.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure>
+                <figure class="snip0015">
+                    <a href="#img7">
+                    <img class="Timg marcoIMG" src="img/cupcake.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure>
+                <figure class="snip0015">
+                    <a href="#img8">
+                    <img class="Timg marcoIMG" src="img/amari.jfif" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure> 
 
+                <figure class="snip0015">
+                    <a href="#img9">
+                    <img class="Timg marcoIMG" src="img/navida.jfif" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure> 
 
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-4">
-		<div  class="poción-pastel-guayaba">
-			
-<div id="imagen2">
-		<div id="info2">
-			<p id="headline2">Calvillito</p>
-			<p id="info4">Pastel de guayaba con relleno de cajeta </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-8"></div>
-	</div>
+                <figure class="snip0015">
+                    <a href="#img10">
+                    <img class="Timg marcoIMG" src="img/delicious.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure> 
 
-	<div class="row">
-		<div class="col-md-4"></div>
-		<div class="col-md-4">
-		<div  class="poción-pastel-preparando">
-			
-<div id="imagen5">
-		<div id="info5">
-			<p id="headline5">preparando</p>
-			<p id="info7">Elaborados con la más alta calidad y dedicación </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-4"></div>
-	</div>
+                <figure class="snip0015">
+                    <a href="#img11">
+                    <img class="Timg marcoIMG" src="img/pasteldecanela.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure> 
 
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-4">
-		<div  class="poción-pastel-miel">
-			
-<div id="imagen4">
-		<div id="info4">
-			<p id="headline4">Miel</p>
-			<p id="info6">Pastel de frutas endulzado con miel </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-8"></div>
-	</div>
+                <figure class="snip0015">
+                    <a href="#img12">
+                    <img class="Timg marcoIMG" src="img/volcan.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure> 
 
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-3">
-		<div  class="poción-pastel-XVaños">
-			
-<div id="imagen3">
-		<div id="info3">
-			<p id="headline3">Mofin de XV Años</p>
-			<p id="info5">Pastelillo de vainilla y fresa </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-9"></div>
-	</div>
+                <figure class="snip0015">
+                    <a href="#img13">
+                    <img class="Timg marcoIMG" src="img/enhorno.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure>
+                <figure class="snip0015">
+                    <a href="#img14">
+                    <img class="Timg marcoIMG" src="img/corazon.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure> 
 
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-3">
-		<div  class="poción-pastel-colores">
-			
-<div id="imagen28">
-		<div id="info28">
-			<p id="headline28">Friends</p>
-			<p id="info30">Mofins personalizados para tus eventos especiales </p>
-		</div>
-		
-	</div>
-	    </div>
-	    <div class="col-md-8"></div>
-	</div>
+                <figure class="snip0015">
+                    <a href="#img15">
+                    <img class="Timg marcoIMG" src="img/blancoyred.jpg" alt="" width="800" height="530"/>
+                    <figcaption>
+                        <h2>Placer</h2>
+                        <p>Pastel de chocolate y avellanas elaborado a base de 3 leches.</p>
+                    </figcaption>
+                    </a>
+                </figure>
 
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-4">
-		<div  class="poción-pastel-zanahoria">
-			
-<div id="imagen6">
-		<div id="info6">
-			<p id="headline6">Delicious Zanahoria</p>
-			<p id="info8">Pastelillo de zanahoria, leche y endulzado con extracto de papaya </p>
-		</div>
-		
-	</div>
-	    </div>
-	    <div class="col-md-7"></div>
-	</div>
+        </div>
+    </section>
+        <div class="modal" id="img1">
+            <div class="imagen">
+                <img src="img/frutos.jpg">
+                    <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad" value="0"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                    </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
 
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-3">
-		<div class="poción-pastel-delicious">
-			<div id="imagen14">
-		<div id="info14">
-			<p id="headline14">Repostería de alta calidad</p>
-			<p id="info16">Todos nuestros insumos son de la mejor calidad para que disfrutes del delicioso sabor del chocolate refinado</p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-8"></div>
-	</div>
+        <div class="modal" id="img2">
+            <div class="imagen">
+                <img src="img/yuumy.jfif">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad" value="0"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img3">
+            <div class="imagen">
+                <img src="img/abee.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img4">
+            <div class="imagen">
+                <img src="img/bomba.jfif">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img5">
+            <div class="imagen">
+                <img src="img/cheesecake.jfif">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img6">
+            <div class="imagen">
+                <img src="img/seda.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img7">
+            <div class="imagen">
+                <img src="img/cupcake.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img8">
+            <div class="imagen">
+                <img src="img/amari.jfif">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img9">
+            <div class="imagen">
+                <img src="img/navida.jfif">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img10">
+            <div class="imagen">
+                <img src="img/delicious.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img11">
+            <div class="imagen">
+                <img src="img/pasteldecanela.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img12">
+            <div class="imagen">
+                <img src="img/volcan.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img13">
+            <div class="imagen">
+                <img src="img/enhorno.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
+        <div class="modal" id="img14">
+            <div class="imagen">
+                <img src="img/corazon.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div><div class="modal" id="img15">
+            <div class="imagen">
+                <img src="img/blancoyred.jpg">
+                <div class="content-1">
+                    <h2>Postre frutos Rojos</h2>
+                    <h3>Precio: 50 pesos</h3>
+                    <form action="">
+                        Cantidad: <input type="number" name="cantidad"></br>
+                        <button type="button">Comprar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="cerrar">Cerrar</div>
+        </div>
 
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-4">
-		<div  class="poción-pastel-haciendo">
-			
-<div id="imagen9">
-		<div id="info9">
-			<p id="headline9">Elaborando</p>
-			<p id="info11">Proceso de elaboración de los pastelillos de memermelada de guayaba </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-8"></div>
-	</div>
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-4">
-		<div class="poción-pastel-birday">
-			<div id="imagen13">
-		<div id="info13">
-			<p id="headline13">Feliz Cumpleaños</p>
-			<p id="info15">Elaboramos pasteles para tus ocaciones especiales </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-9"></div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-2">
-		<div class="poción-pastel-pasteldecanela">
-			<div id="imagen15">
-		<div id="info15">
-			<p id="headline15">Delicia de canela</p>
-			<p id="info17">Combinamos los mejores sabores para lograr obtener un pastel original que derritirá tu paladar </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-9"></div>
-    </div>
-
-
-	    <div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-2">
-		<div class="poción-pastel-volcan">
-			<div id="imagen16">
-		<div id="info16">
-			<p id="headline16">Volcán</p>
-			<p id="info18">Dejate consentir con un shot del más delicioso chocolate</p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-9"></div>
-	</div>
-
-	 <div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-2">
-		<div class="poción-pastel-enhorno">
-			<div id="imagen17">
-		<div id="info17">
-			<p id="headline17">En horno</p>
-			<p id="info19">Ponemos todo nuestro esfuerzo y dedicación hasta el más minímo detalle</p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-10"></div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-2">
-		<div class="poción-pastel-corazon">
-			<div id="imagen18">
-		<div id="info18">
-			<p id="headline18">Novios</p>
-			<p id="info20">Haz que tu día especial sea aun más inolvidable con un delicioso pastel personalizado</p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-10"></div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-3">
-		<div class="poción-pastel-blancoyred">
-			<div id="imagen21">
-		<div id="info21">
-			<p id="headline21">A tu gusto</p>
-			<p id="info23">Crea tu combinación perfecta de sabores colores y formas </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-9"></div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-0"></div>
-		<div class="col-md-3">
-		<div class="poción-pastel-elegante">
-			<div id="imagen22">
-		<div id="info22">
-			<p id="headline22">A tu gusto</p>
-			<p id="info25">Echa a volar tu imaginación haz tu diseño como siempre lo soñaste </p>
-		</div>
-		
-	</div>
-       	</div>
-	    </div>
-	    <div class="col-md-9"></div>
-	</div>
-
-	</div>
-
-
-<footer style="color: white"><i>Sweet's Reposteria</i> TM</footer>
-</div>
-</div>
 </body>
 </html>
